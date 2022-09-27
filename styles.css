@@ -97,8 +97,33 @@ h1{
     justify-content: center;
 }
 
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.image{
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+    width: 160px;
+    height: 160px;
+}
+
+.group{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 13%;
+}
+
+.subtext{
+    color: #1F2937;
+}
+
 h2{
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin-bottom: 50px;
 }
