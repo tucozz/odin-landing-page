@@ -49,6 +49,7 @@ h1{
 }
 
 .main-text{
+    max-height: 90%;
     flex: 1;
 }
 
@@ -86,10 +87,11 @@ h1{
     font-weight: bold;
 }
 
-.second-session{
+.second-section{
     display: flex;
     flex-direction: column;
     padding: 30px;
+    padding-bottom: 100px;
 }
 
 .title{
@@ -127,3 +129,37 @@ h2{
     color: #1F2937;
     margin-bottom: 50px;
 }
+
+.third-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    height: 500px;
+}
+
+.quote{
+    flex-direction: column;
+    align-items: center;
+    max-width: 55%;
+    max-height: 60%;
+}
+
+.text > p{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.end{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
