@@ -177,13 +177,15 @@ h2{
     background-color: #3882F6;
     border-radius: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 20px;
 }
 
 .button{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 50px;
 }
 
 .button > .sign-up{
